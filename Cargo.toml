@@ -1,0 +1,6 @@
+[package]
+name = "libcgrust"
+version = "0.1.0"
+authors = ["Uchio KONDO <udzura@pepabo.com>"]
+
+[dependencies]
