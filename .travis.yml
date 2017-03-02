@@ -1,0 +1,9 @@
+language: rust
+rust:
+  - stable
+script:
+  - cargo test --verbose
+
+notifications:
+  slack:
+    secure: E4XdngiHOVzgbg/Xe0/IITJ0NviPGTB8eY7gFnehJbYJL6v/lnRFZEqQ369VeBx2yb3XQMQpCvxipOCuU2VseMU/NKzXS08CdC5Bhg2urBp8SZbKT3mlL+QFo+07eEAV4O91zcaMkfv3fX9HNTdQ5wYlHPPKDD7kIQ0HyTeunibLuA47hcxIo1uU0Oyc1rnvyCKTQ91ABkT9W6brRN5ZHArUOUMnSchH9hTtv+SfGCOHFXirQQ/zYCYpoR3qWoDuN7i+Swm7fHi2yCRoIcDfrvzkqUp5HcF+chf+fjO/Px0oz4UCIcHg7nEJCnYnuu9TdG/8hi0iSutJUr0wonsUCYrL6hi8HqYAD90JK8peVgU3SEWlr/fTTFyXCw+VtpThzAwWhhxidpOd0soAc/xKcmuD2deSG+w0oZEY2+dGZm10g3ZYXlg6oAKBjZtHFzeDJ30PcyCI/2HjOUKNwccLxdO1qjFaWv6sUQTX7Z+qOgk51p7HTPdob24/jBjW8vLRkjD2mTuwGXUmuXDUpsYnr2tBdP123jajQnifovYRJNYFLa0KLffkH273lJfc592WTf290dBluFSCZnnIdgbyEQVB+7RfoROC/LgDyLuXXXLbf6YRAF7dyE0jFIoulHtE51t2M9PgkIPJhYvMP1Wz+VfMwCAvy9I/Rgvoy/Y352k=
