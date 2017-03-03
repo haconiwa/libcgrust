@@ -8,6 +8,7 @@ description = "A libcgroup alternative written in Rust lang"
 
 [lib]
 name = "cgrust"
+path = "src/cgrust.rs"
 crate-type = ["dylib", "staticlib"]
 
 #[[example]]

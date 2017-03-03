@@ -1,3 +1,3 @@
 #include <stdint.h>
 
-void cgrust_sample(int32_t r);
+extern void cgrust_sample(int r);
