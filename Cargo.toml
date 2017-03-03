@@ -5,3 +5,9 @@ authors = ["Uchio KONDO <udzura@udzura.jp>"]
 description = "A libcgroup alternative written in Rust lang"
 
 [dependencies]
+
+[lib]
+name = "cgrust"
+crate-type = ["dylib", "staticlib"]
+
+#[[example]]
