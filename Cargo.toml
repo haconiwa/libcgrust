@@ -1,5 +1,5 @@
 [package]
-name = "libcgrust"
+name = "cgrust"
 version = "0.0.1"
 authors = ["Uchio KONDO <udzura@udzura.jp>"]
 description = "A libcgroup alternative written in Rust lang"
