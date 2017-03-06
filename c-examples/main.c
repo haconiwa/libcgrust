@@ -3,6 +3,6 @@
 
 int main(int argc, char **argv)
 {
-  cgrust_sample(10);
+  cgrust_sample(30);
   exit(0);
 }
